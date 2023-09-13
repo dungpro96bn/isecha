@@ -1,0 +1,26 @@
+2023-09-13T12:46:32+00:00 CRITICAL Uncaught Error: Call to undefined function fw_get_db_post_option() in C:\xampp8.1\htdocs\food-drink\wp-content\themes\organia-child\page-templates\organia-home.php:6
+Stack trace:
+#0 C:\xampp8.1\htdocs\food-drink\wp-includes\template-loader.php(106): include()
+#1 C:\xampp8.1\htdocs\food-drink\wp-blog-header.php(19): require_once('C:\\xampp8.1\\htd...')
+#2 C:\xampp8.1\htdocs\food-drink\index.php(17): require('C:\\xampp8.1\\htd...')
+#3 {main}
+  thrown in C:\xampp8.1\htdocs\food-drink\wp-content\themes\organia-child\page-templates\organia-home.php on line 6
+
+2023-09-13T12:46:33+00:00 CRITICAL Uncaught Error: Call to undefined function fw_get_db_post_option() in C:\xampp8.1\htdocs\food-drink\wp-content\themes\organia-child\page-templates\organia-home.php:6
+Stack trace:
+#0 C:\xampp8.1\htdocs\food-drink\wp-includes\template-loader.php(106): include()
+#1 C:\xampp8.1\htdocs\food-drink\wp-blog-header.php(19): require_once('C:\\xampp8.1\\htd...')
+#2 C:\xampp8.1\htdocs\food-drink\index.php(17): require('C:\\xampp8.1\\htd...')
+#3 {main}
+  thrown in C:\xampp8.1\htdocs\food-drink\wp-content\themes\organia-child\page-templates\organia-home.php on line 6
+
+2023-09-13T12:46:33+00:00 CRITICAL Uncaught Error: Call to undefined function fw_get_db_post_option() in C:\xampp8.1\htdocs\food-drink\wp-content\themes\organia-child\page-templates\organia-home.php:6
+Stack trace:
+#0 C:\xampp8.1\htdocs\food-drink\wp-includes\template-loader.php(106): include()
+#1 C:\xampp8.1\htdocs\food-drink\wp-blog-header.php(19): require_once('C:\\xampp8.1\\htd...')
+#2 C:\xampp8.1\htdocs\food-drink\index.php(17): require('C:\\xampp8.1\\htd...')
+#3 {main}
+  thrown in C:\xampp8.1\htdocs\food-drink\wp-content\themes\organia-child\page-templates\organia-home.php on line 6
+
+2023-09-13T12:55:07+00:00 CRITICAL syntax error, unexpected variable "$options" in C:\xampp8.1\htdocs\food-drink\wp-content\themes\organia-child\framework-customizations\theme\options\posts\page.php on line 35
+

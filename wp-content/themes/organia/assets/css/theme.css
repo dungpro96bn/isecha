@@ -39,7 +39,7 @@
 .topbarBG{
     background: var(--theme-color);
     border-radius: 50px 0 0 50px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: space-between;
     margin-left: 35px;
@@ -107,7 +107,7 @@
     flex-wrap: wrap;
     -ms-flex-align: center;
     align-items: center;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #fff;
     border-radius: 50px 0 0 50px;
     padding: 0 42px 0 50px;
@@ -581,7 +581,7 @@ header .menuToggler{
     top: 0;
     transition: all .5s ease-in .3s;
     -webkit-backface-visibility: hidden;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .sidebarMenu.active .SMArea {
     opacity: 1;
@@ -834,7 +834,7 @@ header .menuToggler{
     text-align: left;
     position: relative;
     background: #fff;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 50px 0 0 50px;
     padding: 24px 26px 29px 112px;
 }
@@ -874,7 +874,7 @@ header .menuToggler{
 .icon_box_01{
     position: relative;
     background: #f1f3e8;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 50px 0 0 50px;
     padding: 31px 20px 31px 115px;
 }
@@ -1030,7 +1030,7 @@ header .menuToggler{
     position: relative;
 }
 .cateItem{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     margin: 30px 0;
     text-align: center;
@@ -1171,7 +1171,7 @@ header .menuToggler{
     display: inline-block;
     height: 82px;
     background: #fff;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 50px;
     padding: 20px 67px 20px 34px;
     font-size: 18px;
@@ -1263,7 +1263,7 @@ header .menuToggler{
     height: 30px;
     color: #121111;
     background: transparent;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     cursor: pointer;
     padding: 2px 14px;
@@ -1332,7 +1332,7 @@ header .menuToggler{
     position: relative;
     background: #ffffff;
     /*    border-radius: 30px 0 0 30px;*/
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0 0 30px;
     border: 2px solid transparent; 
     -webkit-transition: all 0.3s ease;
@@ -1412,7 +1412,7 @@ header .menuToggler{
     font-size: 16px;
     font-weight: 800;
     color: #ff0404;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: .8;
     margin: 0;
     align-items: baseline;
@@ -1968,7 +1968,7 @@ header .menuToggler{
     font-size: 14px;
     color: #212121;
     font-weight: 800;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0 0 6px 15px;
     padding: 0;
     line-height: 1;
@@ -2036,7 +2036,7 @@ header .menuToggler{
     line-height: 24px;
     color: #888888;
     font-weight: 600;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: -.25px;
 }
 .woocommerce div.product .qickDetails form.cart .group_table td.woocommerce-grouped-product-list-item__label a{
@@ -2050,7 +2050,7 @@ header .menuToggler{
     font-size: 13px;
     font-weight: 800;
     color: #ff0404;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: .8;
     margin: 0;
     align-items: baseline;
@@ -2101,7 +2101,7 @@ header .menuToggler{
     overflow: hidden;
     height: 55px;
     background: #ff0404;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 50px;
     text-align: center;
     font-size: 15px !important;
@@ -2178,7 +2178,7 @@ header .menuToggler{
 /*--- Top Rated ---*/
 .ratedItem01{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .riTop{
     position: relative;
@@ -2495,7 +2495,7 @@ header .menuToggler{
 }
 .productItem02{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0 0 30px;
     margin: 0 0 35px;
     background: #FFF;
@@ -2531,7 +2531,7 @@ header .menuToggler{
     letter-spacing: -.33px;
     margin: 0;
     z-index: 2;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .psold{
     position: absolute;
@@ -2543,7 +2543,7 @@ header .menuToggler{
     letter-spacing: -.33px;
     margin: 0;
     z-index: 2;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .psold span{
     color: #f03333;
@@ -2551,7 +2551,7 @@ header .menuToggler{
 .commoncount{
     justify-content: center;
     display: flex;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .elementor-align-left .commoncount{
     justify-content: flex-start;
@@ -2687,7 +2687,7 @@ header .menuToggler{
     font-weight: 500;
     height: 30px;
     color: #121111;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     cursor: pointer;
     overflow: hidden;
@@ -2826,7 +2826,7 @@ header .menuToggler{
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 800;
     margin: 0 0 7px;
 }
@@ -2843,7 +2843,7 @@ header .menuToggler{
 .productItem03{
     position: relative;
     text-align: center;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .inGrid .productItem03{
     margin-bottom: 51px;
@@ -3192,7 +3192,7 @@ header .menuToggler{
 /*--- Blog Item 01 ---*/
 .blogItem01{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .blogThumb{
     position: relative;
@@ -3356,7 +3356,7 @@ header .menuToggler{
 }
 .contactbox{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-left: 78px;
     padding-top: 10px;
     margin: 0 0 29px;
@@ -3471,7 +3471,7 @@ footer.withmailchimp .widget{
 .topbar02{
     position: relative;
     background: #f5f5f5;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 12px 0 11px;
 }
 .topbar02 p{
@@ -3710,7 +3710,7 @@ footer.withmailchimp .widget{
     position: relative;
     z-index: 6;
     background: #ffffff;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 24px 0;
 }
 .headerMiddle .logo::after{
@@ -4402,7 +4402,7 @@ body .show_cart_area .widget_shopping_cart_content ul li .mc_item .remove:hover 
     color: #232424;
     font-size: 14px;
     text-transform: uppercase;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border: none !important;
     padding: 0 !important;
 }
@@ -4642,7 +4642,7 @@ body .header02 .widget_shopping_cart_content p.total{
 }                          
 .cate_content{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 27px 0 0;
 }
 .cate_content .cate{
@@ -4674,7 +4674,7 @@ body .header02 .widget_shopping_cart_content p.total{
 .listItem li{
     list-style: none;
     display: flex;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     font-weight: 800;
     color: #fff;
@@ -4859,7 +4859,7 @@ body .header02 .widget_shopping_cart_content p.total{
 /*--- Product Item ---*/
 .productItem04{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #f9f9f9;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -5013,7 +5013,7 @@ body .header02 .widget_shopping_cart_content p.total{
 /*--- Product Item ---*/
 .productItem05{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 15px;
     margin: 0 0 32px;
     -webkit-transition: all 0.3s ease;
@@ -5194,7 +5194,7 @@ body .header02 .widget_shopping_cart_content p.total{
 /*--- Countdown ---*/
 .offerexpire{
     display: inline-block;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 44px;
     background: #fb532c;
     border-radius: 3px;
@@ -5260,7 +5260,7 @@ body .header02 .widget_shopping_cart_content p.total{
 /*--- Funfact ---*/
 .fact_01{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-left: 105px;
 }
 .fact_01 > i{
@@ -5328,7 +5328,7 @@ body .header02 .widget_shopping_cart_content p.total{
 }
 .productItem06 {
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #fff;
     border-radius: 10px;
     margin: 95px 0 30px;
@@ -5435,7 +5435,7 @@ body .header02 .widget_shopping_cart_content p.total{
 /*--- Video Btn ---*/
 .onlybtn{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
 }
 .onlybtn i{
@@ -5640,7 +5640,7 @@ body .header02 .widget_shopping_cart_content p.total{
 }
 .tmContent{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 19px 0 0;
 }
 .tmContent h5{
@@ -5731,7 +5731,7 @@ body .header02 .widget_shopping_cart_content p.total{
 /*--- Header 03 ---*/
 .topbar03{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border: 2px solid #f5f5f5;
     padding: 9px 0;
 }
@@ -6084,7 +6084,7 @@ body .header02 .widget_shopping_cart_content p.total{
     height: 42px;
     border: 1px solid #eaeaea;
     color: #121111;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     cursor: pointer;
     padding: 7px 16px;
@@ -6102,7 +6102,7 @@ body .header02 .widget_shopping_cart_content p.total{
 }
 .productItem07 {
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: transparent;
     margin: 0 0 40px;
     -webkit-transition: all 0.3s ease;
@@ -6378,7 +6378,7 @@ body .header02 .widget_shopping_cart_content p.total{
 /*--- Product Item ---*/
 .productItem08 {
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0 0 30px;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -6675,7 +6675,7 @@ body .header02 .widget_shopping_cart_content p.total{
     background: #fff;
     margin: 0 3px 32px;
     border-radius: 20px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-box-shadow: 0px 0px 117px 0px rgba(196, 196, 196, 0.28);
     -moz-box-shadow:    0px 0px 117px 0px rgba(196, 196, 196, 0.28);
     box-shadow:         0px 0px 117px 0px rgba(196, 196, 196, 0.28);
@@ -6725,7 +6725,7 @@ body .header02 .widget_shopping_cart_content p.total{
     position: relative;
 }
 .testmonialItem .quote{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25.93px;
     line-height: 36.73px;
     color: #000000;
@@ -6743,7 +6743,7 @@ body .header02 .widget_shopping_cart_content p.total{
     color: #9fa4af;
     line-height: 30px;
     font-weight: 700;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .tsauthor span{
     text-transform: uppercase;
@@ -6917,7 +6917,7 @@ body .header02 .widget_shopping_cart_content p.total{
     background: var(--theme-color);
     border-radius: 50px;
     text-transform: capitalize;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 800;
     color: #fff;
@@ -7077,7 +7077,7 @@ body .header02 .widget_shopping_cart_content p.total{
 .copyright{
     position: relative;
     line-height: .8;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .copyright ul{
     margin: 0;
@@ -7123,7 +7123,7 @@ body .header02 .widget_shopping_cart_content p.total{
 }
 .siteInfo{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #a4a4a4;
     font-weight: 500;
@@ -7169,7 +7169,7 @@ body .header02 .widget_shopping_cart_content p.total{
     margin: 0 0 10px;
 }
 .breadcrumbs {
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     font-size: 15px;
     font-weight: 600;
@@ -7286,7 +7286,7 @@ body .header02 .widget_shopping_cart_content p.total{
 .organ_pagination {
     position: relative;
     display: flex;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 36px 0 0;
 }
 .organ_pagination.text-center{
@@ -7595,7 +7595,7 @@ body .header02 .widget_shopping_cart_content p.total{
     color: var(--theme-color);
 }
 .pp_post_item span{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     color: var(--theme-color);
     font-weight: 500;
@@ -7627,7 +7627,7 @@ body .header02 .widget_shopping_cart_content p.total{
     border-bottom: 1px dashed #ebebeb;
     margin: 0 0 15px;
     padding-bottom: 13px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .sidebar .widget_categories ul li{
     color: #464646;
@@ -7715,7 +7715,7 @@ body .header02 .widget_shopping_cart_content p.total{
     display: none;
 }
 .sidebar .select2-container{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .sidebar .woocommerce .select2-container--default .select2-selection--single{
     background: transparent;
@@ -7756,7 +7756,7 @@ body .header02 .widget_shopping_cart_content p.total{
     color: #111111;
     font-weight: 600;
     text-transform: capitalize;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0 33px;
     background: transparent;
     margin: 0;
@@ -8285,7 +8285,7 @@ body .header02 .widget_shopping_cart_content p.total{
     left: 0;
     bottom: 48px;
     z-index: 2;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .bannerContent.center{
     left: 0;
@@ -8366,7 +8366,7 @@ body .header02 .widget_shopping_cart_content p.total{
     padding: 35px 185px 0;
     position: relative;
     text-align: center;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: transparent;
     margin: 55px 0 35px;
 }
@@ -8420,7 +8420,7 @@ body .header02 .widget_shopping_cart_content p.total{
 }
 .tags {
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .tags h5{
     display: inline-block;
@@ -8626,7 +8626,7 @@ body .header02 .widget_shopping_cart_content p.total{
     font-weight: 600;
     text-transform: uppercase;
     color: var(--theme-color);
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: .8;
     margin: 0;
 }
@@ -8644,7 +8644,7 @@ body .header02 .widget_shopping_cart_content p.total{
 }
 .comment-reply-link {
     font-size: 12px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: var(--theme-color);
     font-weight: 800;
@@ -8701,7 +8701,7 @@ body .header02 .widget_shopping_cart_content p.total{
     background: transparent;
     padding: 0;
     border: none;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 800;
     border: 1px solid #eceef2;
     border-radius: 50px;
@@ -8982,7 +8982,7 @@ body .header02 .widget_shopping_cart_content p.total{
 }
 .filterBy{
     position: relative;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .filterBy select,
 .filterBy .nice-select{
@@ -9053,7 +9053,7 @@ body .header02 .widget_shopping_cart_content p.total{
     position: relative;
     margin-left: auto;
     height: 51px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #dbdbdb;
     border-radius: 50px;
     display: flex;
@@ -9190,7 +9190,7 @@ body .header02 .widget_shopping_cart_content p.total{
     border-radius: 20px;
     display: flex;
     margin: 0 0 30px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .listproThumb{
     position: relative;
@@ -9426,7 +9426,7 @@ body .header02 .widget_shopping_cart_content p.total{
     border-radius: 50px;
     margin: 10px 0 0;
     background: var(--theme-color);
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     color: #fff;
 }
@@ -9436,7 +9436,7 @@ body .header02 .widget_shopping_cart_content p.total{
 .woocommerce .widget_price_filter .price_slider_amount{
     margin: 20px 0 0;
     display: flex;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     justify-content: flex-start;
 }
 .woocommerce .widget_price_filter .price_slider_amount .price_label{
@@ -9454,7 +9454,7 @@ body .header02 .widget_shopping_cart_content p.total{
     display: inline-block;
     font-size: 12px !important;
     line-height: 34px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 32px;
     border-radius: 50px;
     margin-right: 2px;
@@ -9913,7 +9913,7 @@ body .header02 .widget_shopping_cart_content p.total{
     font-size: 16px;
     color: #333e48;
     font-weight: 800;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0 0 12px 15px;
     padding: 0;
     line-height: .8;
@@ -9930,7 +9930,7 @@ body .header02 .widget_shopping_cart_content p.total{
     font-size: 16px;
     color: #333e48;
     font-weight: 800;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0 0 12px 15px;
     padding: 0;
     line-height: .8;
@@ -9949,7 +9949,7 @@ body .header02 .widget_shopping_cart_content p.total{
 .woocommerce div.product form.cart .group_table td.woocommerce-grouped-product-list-item__label{
     vertical-align: middle;
     padding: 0;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .woocommerce div.product form.cart .group_table td.woocommerce-grouped-product-list-item__label{
     font-weight: 700;
@@ -9960,7 +9960,7 @@ body .header02 .widget_shopping_cart_content p.total{
     font-size: 16px;
     font-weight: 800;
     color: #ff0404;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: .8;
     margin: 0;
 }
@@ -10152,7 +10152,7 @@ body .header02 .widget_shopping_cart_content p.total{
     overflow: hidden;
     height: 55px;
     background: var(--theme-color);
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 50px;
     text-align: center;
     font-size: 15px !important;
@@ -10191,7 +10191,7 @@ body .header02 .widget_shopping_cart_content p.total{
     font-weight: 800;
     color: #131313;
     letter-spacing: -.8px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: .8;
     margin: 0;
 }
@@ -10301,7 +10301,7 @@ div.product .woocommerce-variation.single_variation {
     display: inline-block;
     font-size: 21px;
     font-weight: 700;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: -.22px;
     color: #333e48;
     border: none;
@@ -10392,7 +10392,7 @@ div.product .woocommerce-variation.single_variation {
     font-weight: 900;
     width: 500px;
     margin: 0 0 0;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 9px 0;
     background: transparent !important;
     border: none;
@@ -10403,7 +10403,7 @@ div.product .woocommerce-variation.single_variation {
     font-size: 15px;
     font-weight: 500;
     font-style: normal;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     background: transparent !important;
     border: none;
@@ -10867,7 +10867,7 @@ div.product .woocommerce-variation.single_variation {
     display: none;
 }
 .mtItem02{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #646464;
     letter-spacing: -.08px;
@@ -11011,7 +11011,7 @@ div.product .woocommerce-variation.single_variation {
     background-color: #e4e4e4;
     padding: 77px 125px 103px;
     border-radius: 5px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-box-shadow: 0px 30px 160px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow:    0px 30px 160px 0px rgba(0, 0, 0, 0.1);
     box-shadow:         0px 30px 160px 0px rgba(0, 0, 0, 0.1);
@@ -11193,7 +11193,7 @@ div.product .woocommerce-variation.single_variation {
     border: 2px solid #eceef2;
     line-height: 60px;
     background: transparent;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #8799a3;
     outline: none;
     padding: 0 40px;
@@ -11402,7 +11402,7 @@ div.product .woocommerce-variation.single_variation {
     margin: 0 0 0 -9px;
     left: 0;
     top: -38px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -11425,7 +11425,7 @@ div.product .woocommerce-variation.single_variation {
     background: var(--theme-color);
     color: #fff;
     font-size: 11px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 40px;
     line-height: 42px;
     border-radius: 50px;
@@ -11448,7 +11448,7 @@ div.product .woocommerce-variation.single_variation {
     background: var(--theme-color);
     color: #fff;
     font-size: 14px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 60px;
     line-height: 62px;
     border-radius: 50px;
@@ -11465,7 +11465,7 @@ div.product .woocommerce-variation.single_variation {
     color: #fff;
 }
 .woocommerce .cartPage{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     -webkit-box-shadow: 0px 34px 90px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow:    0px 34px 90px 0px rgba(0, 0, 0, 0.1);
@@ -11899,7 +11899,7 @@ body .select2-results__option {
     line-height: 37px;
     font-weight: 700;
     margin: 0;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     transition: all ease 400ms;
     -moz-transition: all ease 400ms;
@@ -12145,7 +12145,7 @@ body .select2-container--default .select2-results__option--highlighted[data-sele
     display: inline-grid;
 }
 .create-account label, #ship-to-different-address label {
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     font-size: 15px;
     font-weight: 700;
@@ -12310,7 +12310,7 @@ body .select2-container--default .select2-results__option--highlighted[data-sele
     padding-left: 30px;
     cursor: pointer;
     display: block;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 20px;
 }
 .woocommerce-checkout-payment ul li input[type="radio"]:checked ~ label:after {
@@ -12511,7 +12511,7 @@ body .select2-container--default .select2-results__option--highlighted[data-sele
     font-size: 18px;
     text-transform: none;
     font-weight: 700;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 8px 0 0;
     word-break: break-all;
     white-space: normal;
@@ -12607,7 +12607,7 @@ body .select2-container--default .select2-results__option--highlighted[data-sele
     display: inline-block;
     height: 60px;
     background: #fff;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 50px;
     padding: 0 45px;
     line-height: 65px;
@@ -12718,7 +12718,7 @@ body .select2-container--default .select2-results__option--highlighted[data-sele
     padding-left: 25px;
     cursor: pointer;
     display: block;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 20px;
 }
 .woocommerce .woocommerce-form-login input[type="checkbox"]{
@@ -12802,7 +12802,7 @@ body .select2-container--default .select2-results__option--highlighted[data-sele
 .woocommerce-account .woocommerce-MyAccount-navigation ul {
     margin: 0;
     padding: 0;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: .8;
 }
 .woocommerce-account .woocommerce-MyAccount-navigation ul li {
@@ -12880,7 +12880,7 @@ body .select2-container--default .select2-results__option--highlighted[data-sele
     background: var(--theme-color);
     color: #fff;
     font-size: 11px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 40px;
     line-height: 42px;
     border-radius: 50px;
@@ -12915,7 +12915,7 @@ body .select2-container--default .select2-results__option--highlighted[data-sele
 }
 .woocommerce-account .addresses .title .edit {
     float: right;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 11px;
     height: 30px;
     text-align: center;
@@ -13028,7 +13028,7 @@ body .select2-container--default .select2-results__option--highlighted[data-sele
     top: 0;
 }
 span.rating-count {
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #a1a1a1;
     display: inline-block;
     margin-left: 7px;
@@ -13265,7 +13265,7 @@ span.rating-count {
     height: 30px;
     color: #121111;
     background: transparent;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     cursor: pointer;
     padding: 2px 14px;
@@ -13337,7 +13337,7 @@ span.rating-count {
     height: 42px;
     border: 1px solid #eaeaea;
     color: #121111;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     cursor: pointer;
     padding: 7px 16px;
@@ -13377,7 +13377,7 @@ span.rating-count {
     font-weight: 500;
     height: 30px;
     color: #121111;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     cursor: pointer;
     overflow: hidden;
@@ -13501,7 +13501,7 @@ span.rating-count {
     display: none;
 }
 .woocommerce.yith-wcwl-form.wishlist-fragment{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     -webkit-box-shadow: 0px 34px 90px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 34px 90px 0px rgba(0, 0, 0, 0.1);
@@ -13901,7 +13901,7 @@ span.rating-count {
     background: transparent;
 }
 .mainMenu #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item > a.mega-menu-link{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .mainMenu #mega-menu-wrap-primary-menu #mega-menu-primary-menu a.mega-menu-link{
     font-size: 16px !important;
@@ -14626,7 +14626,7 @@ span.cart-empty i.twi-times-circle2{
     color: #1e1e1e;
     line-height: 44px;
     text-align: center;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: -.72px;
@@ -14970,7 +14970,7 @@ span.cart-empty i.twi-times-circle2{
    color: #fff;
    font-weight: 800;
    background: linear-gradient(-90deg, var(--color-start) 0%, var(--color-end) 100%);
-   font-family: 'Spartan', sans-serif;
+   font-family: 'Roboto', sans-serif;
    position: relative;
    z-index: 2;
    overflow: hidden;
@@ -15080,7 +15080,7 @@ span.cart-empty i.twi-times-circle2{
     position: relative;
     color: #c2c2c2;
     font-weight: 500;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 800;
     text-transform: capitalize;
     line-height: 26px;
@@ -15242,7 +15242,7 @@ span.cart-empty i.twi-times-circle2{
   color: #fff;
   font-weight: 800;
   background: linear-gradient(-90deg, var(--color-start) 0%, var(--color-end) 100%);
-  font-family: 'Spartan', sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
   z-index: 2;
   overflow: hidden;
@@ -15294,7 +15294,7 @@ span.cart-empty i.twi-times-circle2{
     font-size: 10px;
     line-height: 26px;
     text-transform: uppercase;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .rmBtn a:after{
     position: absolute;
@@ -15476,7 +15476,7 @@ span.cart-empty i.twi-times-circle2{
     color: #1c1c1c;
     font-weight: 700;
     font-size: 18px;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: -.54px;
     line-height: 50px;
     display: block;
@@ -15514,7 +15514,7 @@ input[type=number] {
     font-size: 25px;
     color: #1c1c1c;
     font-weight: 500;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: -.75px;
     right: 4px;
     z-index: 2;
@@ -15761,7 +15761,7 @@ input[type=number] {
     margin: 0 0 2px;
 }
 .categoryBox span{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 11px;
     color: #464646;
     font-weight: 600;
@@ -15905,7 +15905,7 @@ input[type=number] {
     display: inline-block !important;
 }
 .productItem09 .prLabels{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .productItem09 .prLabels p{
     margin-bottom: 5px;
@@ -16113,7 +16113,7 @@ input[type=number] {
     padding: 0 0 0 0;
     position: relative;
     display: flex;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .org_pro_tab.grNavigation li{
     list-style: none;

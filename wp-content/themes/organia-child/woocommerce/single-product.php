@@ -49,7 +49,7 @@ if(defined('FW')):
     $shop_pro_upsell_title  = ($shop_pros_enable_settings == 1 && !empty($shop_pros_upsell_title) ? $shop_pros_upsell_title : $shop_pro_upsell_title);
 endif;
 if($shop_pro_is_banner == 1):
-    get_template_part('template-parts/header/shop-product', 'header');
+    get_template_part( 'template-parts/header/page', 'header' );
 endif;
 
 ?>

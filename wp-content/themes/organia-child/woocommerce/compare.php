@@ -60,7 +60,8 @@ $localized_table_text = apply_filters( 'wpml_translate_single_string', $table_te
 
 	<?php do_action( 'yith_woocompare_popup_head' ); ?>
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700;800;900&display=swap"> <?php // phpcs:ignore ?>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700;800;900&display=swap">
+    <?php // phpcs:ignore ?>
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"/> <?php // phpcs:ignore ?>
 	<link rel="stylesheet" href="<?php echo esc_url( YITH_WOOCOMPARE_URL ); ?>assets/css/colorbox.css"/> <?php // phpcs:ignore ?>
 	<link rel="stylesheet" href="<?php echo esc_url( YITH_WOOCOMPARE_URL ); ?>assets/css/jquery.dataTables.css"/> <?php // phpcs:ignore ?>
