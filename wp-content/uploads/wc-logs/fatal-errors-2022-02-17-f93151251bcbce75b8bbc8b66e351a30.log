@@ -1,0 +1,36 @@
+2022-02-17T06:40:39+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/themewar/public_html/wp/organia/main/wp-content/plugins/organia-assistance/inc/elementor/tw-product-offer.php:677
+Stack trace:
+#0 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/base/controls-stack.php(2192): Elementor\Tw_Product_Offer_Widget->render()
+#1 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/base/widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#2 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/core/base/document.php(282): Elementor\Widget_Base->render_content()
+#3 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/managers/widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elemento in /home/themewar/public_html/wp/organia/main/wp-content/plugins/organia-assistance/inc/elementor/tw-product-offer.php on line 677
+
+2022-02-17T06:41:05+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/themewar/public_html/wp/organia/main/wp-content/plugins/organia-assistance/inc/elementor/tw-product-offer.php:677
+Stack trace:
+#0 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/base/controls-stack.php(2192): Elementor\Tw_Product_Offer_Widget->render()
+#1 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/base/widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#2 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/core/base/document.php(282): Elementor\Widget_Base->render_content()
+#3 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/managers/widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elemento in /home/themewar/public_html/wp/organia/main/wp-content/plugins/organia-assistance/inc/elementor/tw-product-offer.php on line 677
+
+2022-02-17T06:41:06+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/themewar/public_html/wp/organia/main/wp-content/plugins/organia-assistance/inc/elementor/tw-product-offer.php:677
+Stack trace:
+#0 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/base/controls-stack.php(2192): Elementor\Tw_Product_Offer_Widget->render()
+#1 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/base/widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#2 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/core/base/document.php(282): Elementor\Widget_Base->render_content()
+#3 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/managers/widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elemento in /home/themewar/public_html/wp/organia/main/wp-content/plugins/organia-assistance/inc/elementor/tw-product-offer.php on line 677
+
+2022-02-17T06:41:10+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/themewar/public_html/wp/organia/main/wp-content/plugins/organia-assistance/inc/elementor/tw-product-offer.php:677
+Stack trace:
+#0 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/base/controls-stack.php(2192): Elementor\Tw_Product_Offer_Widget->render()
+#1 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/base/widget-base.php(584): Elementor\Controls_Stack->render_by_mode()
+#2 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/core/base/document.php(282): Elementor\Widget_Base->render_content()
+#3 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elementor/includes/managers/widgets.php(390): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /home/themewar/public_html/wp/organia/main/wp-content/plugins/elemento in /home/themewar/public_html/wp/organia/main/wp-content/plugins/organia-assistance/inc/elementor/tw-product-offer.php on line 677
+
