@@ -97,7 +97,7 @@ if (!empty($terms) && !is_wp_error($terms)) {
                 <div <?php wc_product_class('organia_product_wrapper ', $product); ?>>
                     <div class="productItem04">
                         <div class="proThumb04">
-                            <img src="<?php echo organia_post_thumbnail(get_the_ID(), $w, $h); ?>" alt="<?php echo get_the_title(); ?>">
+                            <img src="<?php echo organia_post_thumbnail(get_the_ID()); ?>" alt="<?php echo get_the_title(); ?>">
                         </div>
                         <div class="product_content04">
                             <?php echo(function_exists('organia_product_flash_notice_label') && $product_is_flashlabels == 1 ? organia_product_flash_notice_label() : '') ?>
@@ -152,7 +152,7 @@ if (!empty($terms) && !is_wp_error($terms)) {
                     <div <?php wc_product_class('organia_product_wrapper ', $product); ?>>
                         <div class="productItem01">
                             <div class="proThumb">
-                                <img src="<?php echo organia_post_thumbnail(get_the_ID(), $w, $h); ?>" alt="<?php echo get_the_title(); ?>">
+                                <img src="<?php echo organia_post_thumbnail(get_the_ID()); ?>" alt="<?php echo get_the_title(); ?>">
                             </div>
                             <a class="hover" href="<?php echo get_the_permalink(); ?>">
                                 <img src="<?php echo organia_attachment_url($_secondary_image_id, 280, 260); ?>" alt="<?php echo get_the_title(); ?>">
