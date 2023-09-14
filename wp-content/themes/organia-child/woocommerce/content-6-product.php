@@ -144,7 +144,7 @@ $h = ($shop_list_thumb_height > 0 ? $shop_list_thumb_height : 263);
     <div <?php wc_product_class('organia_product_wrapper', $product); ?>>
         <div class="productItemlist">
             <div class="listproThumb">
-                <img src="<?php echo organia_post_thumbnail(get_the_ID(), $w, $h); ?>" alt="<?php echo get_the_title(); ?>">
+                <img src="<?php echo organia_post_thumbnail(get_the_ID()); ?>" alt="<?php echo get_the_title(); ?>">
                 <?php echo(function_exists('organia_product_flash_notice_label') && $shop_is_flashlabels == 'yes' ? organia_product_flash_notice_label() : '') ?>
                 <?php if (shortcode_exists('yith_wcwl_add_to_wishlist') && $shop_is_wishlist == 'yes'): ?>
                     <div class="wishlist">

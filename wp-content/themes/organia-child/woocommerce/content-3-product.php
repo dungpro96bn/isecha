@@ -128,7 +128,7 @@ $h = ($shop_thumb_height > 0 ? $shop_thumb_height : 183);
     <div <?php wc_product_class('organia_product_wrapper', $product); ?>>
         <div class="productItem06 p06bg">
             <div class="proThumb04">
-                <img src="<?php echo organia_post_thumbnail(get_the_ID(), $w, $h); ?>" alt="<?php echo get_the_title(); ?>">
+                <img src="<?php echo organia_post_thumbnail(get_the_ID()); ?>" alt="<?php echo get_the_title(); ?>">
             </div>
             <div class="product_content04">
                 <?php echo(function_exists('organia_product_flash_notice_label') && $shop_is_flashlabels == 'yes' ? organia_product_flash_notice_label() : '') ?>

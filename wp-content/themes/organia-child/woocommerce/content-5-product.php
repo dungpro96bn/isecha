@@ -127,7 +127,7 @@ $h = ($shop_thumb_height > 0 ? $shop_thumb_height : 183);
     <div <?php wc_product_class('organia_product_wrapper', $product); ?>>
         <div class="productItem05">
             <div class="proThumb05">
-                <img src="<?php echo organia_post_thumbnail(get_the_ID(), $w, $h); ?>" alt="<?php echo get_the_title(); ?>">
+                <img src="<?php echo organia_post_thumbnail(get_the_ID()); ?>" alt="<?php echo get_the_title(); ?>">
                 <?php echo organia_kses($cat_name) ?>
                 <?php echo(function_exists('organia_product_flash_notice_label') && $shop_is_flashlabels == 'yes' ? organia_product_flash_notice_label() : '') ?>
                 <div class="piActionBtns">

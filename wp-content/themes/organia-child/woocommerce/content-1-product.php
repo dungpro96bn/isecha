@@ -135,10 +135,10 @@ $h = ($shop_thumb_height > 0 ? $shop_thumb_height : 254);
     <div <?php wc_product_class('organia_product_wrapper', $product); ?>>
         <div class="productItem01 <?php echo esc_attr($productClass); ?>">
             <div class="proThumb">
-                <img src="<?php echo organia_post_thumbnail(get_the_ID(), $w, $h); ?>" alt="<?php echo get_the_title(); ?>">
+                <img src="<?php echo organia_post_thumbnail(get_the_ID()); ?>" alt="<?php echo get_the_title(); ?>">
             </div>
             <a class="hover" href="<?php echo get_the_permalink(); ?>">
-                <img src="<?php echo organia_attachment_url($_secondary_image_id, 280, 260); ?>" alt="<?php echo get_the_title(); ?>">
+                <img src="<?php echo organia_attachment_url($_secondary_image_id); ?>" alt="<?php echo get_the_title(); ?>">
             </a>
             <div class="product_content">
                 <div class="ratings">

@@ -128,7 +128,7 @@ $h = ($shop_thumb_height > 0 ? $shop_thumb_height : 261);
     <div <?php wc_product_class('organia_product_wrapper', $product); ?>>
         <div class="productItem07">
             <div class="proThumb07">
-                <img src="<?php echo organia_post_thumbnail(get_the_ID(), $w, $h); ?>" alt="<?php echo get_the_title(); ?>">
+                <img src="<?php echo organia_post_thumbnail(get_the_ID()); ?>" alt="<?php echo get_the_title(); ?>">
                 <div class="piActionBtns">
                     <?php function_exists('organia_add_to_cart') ? organia_add_to_cart() : '' ?>
                     <?php if ($shop_is_quickview == 'yes'): ?>
