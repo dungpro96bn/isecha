@@ -39,46 +39,44 @@ if ($header_is_cart != 1 && $header_is_wishlist != 1) {
 }
 
 ?>
-<?php if ($header_is_topbar == 1): ?>
+<?php //if ($header_is_topbar == 1): ?>
     <!-- Header Topbar -->
     <section class="topbar02">
         <div class="container largeContainer">
             <div class="row">
                 <div class="col-md-6">
-                    <?php if ($header_topbar_info != ''): ?>
-                        <p><?php echo organia_kses($header_topbar_info); ?></p>
-                    <?php endif; ?>
+                    <a target="&quot;_blank&quot;" rel="&quot;nofollow&quot;" class="info" href="https://www.facebook.com/IseCha.Japaseneteastand"><i class="twi-store"></i>Welcome to our Ise Cha - Japanese tea stand</a>
                 </div>
                 <div class="col-md-6">
                     <div class="tbaccess">
-                        <?php if ($header_is_locations == 1 && !empty($header_off_locations)): ?>
-                            <div class="office_locations">
-                                <?php $i = 1;
-                                foreach ($header_off_locations as $hol): ?>
-                                    <?php
-                                    $ol_flag = (isset($hol['ol_flag']) && $hol['ol_flag'] != '' ? $hol['ol_flag'] : '');
-                                    $ol_name = (isset($hol['ol_name']) && $hol['ol_name'] != '' ? $hol['ol_name'] : '');
-                                    $ol_url = (isset($hol['ol_url']) && $hol['ol_url'] != '' ? $hol['ol_url'] : '#');
-                                    if ($i == 1 && $ol_flag != '' && $ol_name != ''):
-                                        ?>
-                                        <a href="<?php echo esc_url($ol_url) ?>"><img src="<?php echo organia_attachment_url($ol_flag, 'full'); ?>" alt="<?php echo esc_attr($ol_name); ?>"/><span><?php echo esc_html($ol_name); ?></span></a>
-                                        <?php $i++; endif; endforeach; ?>
-                                <div class="all_off_locations">
-                                    <?php $i = 1;
-                                    foreach ($header_off_locations as $hol): ?>
-                                        <?php
-                                        $ol_flag = (isset($hol['ol_flag']) && $hol['ol_flag'] != '' ? $hol['ol_flag'] : '');
-                                        $ol_name = (isset($hol['ol_name']) && $hol['ol_name'] != '' ? $hol['ol_name'] : '');
-                                        $ol_url = (isset($hol['ol_url']) && $hol['ol_url'] != '' ? $hol['ol_url'] : '#');
-                                        if ($i > 1 && $ol_flag != '' && $ol_name != ''):
-                                            ?>
-                                            <a href="<?php echo esc_url($ol_url) ?>"><img src="<?php echo organia_attachment_url($ol_flag, 'full'); ?>" alt="<?php echo esc_attr($ol_name); ?>"/><span><?php echo esc_html($ol_name); ?></span></a>
-                                        <?php endif;
-                                        $i++; endforeach; ?>
-                                </div>
-                            </div>
-                        <?php endif; ?>
-                        <?php if ($header_is_login == 1 && class_exists('WooCommerce')): ?>
+<!--                        --><?php //if ($header_is_locations == 1 && !empty($header_off_locations)): ?>
+<!--                            <div class="office_locations">-->
+<!--                                --><?php //$i = 1;
+//                                foreach ($header_off_locations as $hol): ?>
+<!--                                    --><?php
+//                                    $ol_flag = (isset($hol['ol_flag']) && $hol['ol_flag'] != '' ? $hol['ol_flag'] : '');
+//                                    $ol_name = (isset($hol['ol_name']) && $hol['ol_name'] != '' ? $hol['ol_name'] : '');
+//                                    $ol_url = (isset($hol['ol_url']) && $hol['ol_url'] != '' ? $hol['ol_url'] : '#');
+//                                    if ($i == 1 && $ol_flag != '' && $ol_name != ''):
+//                                        ?>
+<!--                                        <a href="--><?php //echo esc_url($ol_url) ?><!--"><img src="--><?php //echo organia_attachment_url($ol_flag, 'full'); ?><!--" alt="--><?php //echo esc_attr($ol_name); ?><!--"/><span>--><?php //echo esc_html($ol_name); ?><!--</span></a>-->
+<!--                                        --><?php //$i++; endif; endforeach; ?>
+<!--                                <div class="all_off_locations">-->
+<!--                                    --><?php //$i = 1;
+//                                    foreach ($header_off_locations as $hol): ?>
+<!--                                        --><?php
+//                                        $ol_flag = (isset($hol['ol_flag']) && $hol['ol_flag'] != '' ? $hol['ol_flag'] : '');
+//                                        $ol_name = (isset($hol['ol_name']) && $hol['ol_name'] != '' ? $hol['ol_name'] : '');
+//                                        $ol_url = (isset($hol['ol_url']) && $hol['ol_url'] != '' ? $hol['ol_url'] : '#');
+//                                        if ($i > 1 && $ol_flag != '' && $ol_name != ''):
+//                                            ?>
+<!--                                            <a href="--><?php //echo esc_url($ol_url) ?><!--"><img src="--><?php //echo organia_attachment_url($ol_flag, 'full'); ?><!--" alt="--><?php //echo esc_attr($ol_name); ?><!--"/><span>--><?php //echo esc_html($ol_name); ?><!--</span></a>-->
+<!--                                        --><?php //endif;
+//                                        $i++; endforeach; ?>
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        --><?php //endif; ?>
+                        <?php if (class_exists('WooCommerce')): ?>
                             <ul>
                                 <li>
                                     <?php
@@ -108,113 +106,87 @@ if ($header_is_cart != 1 && $header_is_wishlist != 1) {
         </div>
     </section>
     <!-- Header Topbar -->
-<?php endif; ?>
-<?php if ($header_is_hmiddle == 1): ?>
+<?php //endif; ?>
+<?php //if ($header_is_hmiddle == 1): ?>
     <!-- Header Middle -->
     <section class="headerMiddle">
         <div class="container largeContainer">
             <div class="row">
                 <div class="col-xl-5 col-lg-3 col-md-4">
                     <div class="logo">
-                        <?php if (!empty($header_logo)): ?>
-                            <a href="<?php echo esc_url(home_url('/')); ?>">
-                                <img src="<?php echo esc_url($header_logo); ?>" alt="<?php echo get_bloginfo(); ?>"/>
-                            </a>
-                        <?php else: ?>
-                            <a class="text" href="<?php echo esc_url(home_url('/')); ?>"><?php echo get_bloginfo('name'); ?></a>
-                        <?php endif; ?>
+                        <a href="<?php echo esc_url(home_url('/')); ?>">
+                            <img src="/wp-content/uploads/2021/11/logo-header.png" alt="<?php echo get_bloginfo(); ?>"/>
+                        </a>
                     </div>
                 </div>
-                <div class="<?php if ($header_is_infobox == 1): ?>col-xl-5 col-lg-6 col-md-8<?php else: ?>col-xl-7 col-lg-9 col-md-8<?php endif; ?>">
-                    <?php if ($header_is_search == 1): ?>
-                        <div class="search-product ajax-search-product">
-                            <form class="d-flex" method="get" action="<?php echo esc_url(home_url('/')); ?>">
-                                <input type="search" name="s" placeholder="<?php echo get_totalcount_product().esc_attr__(' Products Search. Hit enter...', 'organia'); ?>" value="<?php echo get_search_query(); ?>" autocomplete="off">
-                                <input type="hidden" name="post_type" value="product"/>
-                                <span class="organia-loading <?php echo esc_attr($header_is_cat_search != 1 ? 'noCat' : ''); ?>"><i class="twi-spinner2"></i></span>
-                                <?php if ($header_is_cat_search == 1): ?>
-                                    <div class="search-category">
-                                        <select name="product_cat">
-                                            <option value=""><?php esc_html_e('Select a Categories', 'organia'); ?></option>
-                                            <?php if (is_array($cats) && !empty($cats)): unset($cats[0]); ?>
-                                                <?php foreach ($cats as $term_id => $cat): ?>
-                                                    <option value="<?php echo esc_attr($term_id); ?>"><?php echo esc_html($cat); ?></option>
-                                                <?php endforeach; ?>
-                                            <?php endif; ?>
-                                        </select>
-                                    </div>
-                                <?php endif; ?>
-                            </form>
-                            <div class="organia-serach_wrapper">
+                <div class="col-xl-5 col-lg-6 col-md-8">
+                    <div class="search-product ajax-search-product">
+                        <form class="d-flex" method="get" action="<?php echo esc_url(home_url('/')); ?>">
+                            <input type="search" name="s" placeholder="<?php echo get_totalcount_product().esc_attr__(' Products Search. Hit enter...', 'organia'); ?>" value="<?php echo get_search_query(); ?>" autocomplete="off">
+                            <input type="hidden" name="post_type" value="product"/>
+                            <span class="organia-loading <?php echo esc_attr($header_is_cat_search != 1 ? 'noCat' : ''); ?>"><i class="twi-spinner2"></i></span>
+                            <div class="search-category">
+                                <select name="product_cat">
+                                    <option value=""><?php esc_html_e('Select a Categories', 'organia'); ?></option>
+                                    <?php if (is_array($cats) && !empty($cats)): unset($cats[0]); ?>
+                                        <?php foreach ($cats as $term_id => $cat): ?>
+                                            <option value="<?php echo esc_attr($term_id); ?>"><?php echo esc_html($cat); ?></option>
+                                        <?php endforeach; ?>
+                                    <?php endif; ?>
+                                </select>
                             </div>
-                        </div>
-                    <?php endif; ?>
-                </div>
-                <?php if ($header_is_infobox == 1): ?>
-                    <div class="col-xl-2 col-lg-3 col-md-4 cusmm">
-                        <div class="midIconBox">
-                            <i class="<?php echo esc_attr__('twi-headphones-alt2', 'organia'); ?>"></i>
-                            <?php if ($info_label != ''): ?>
-                                <h5><?php echo esc_html($info_label); ?></h5>
-                            <?php endif; ?>
-                            <?php if ($info_value != ''): ?>
-                                <p><?php echo esc_html($info_value); ?></p>
-                            <?php endif; ?>
+                        </form>
+                        <div class="organia-serach_wrapper">
                         </div>
                     </div>
-                <?php endif; ?>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 cusmm">
+                    <div class="midIconBox">
+                        <i class="<?php echo esc_attr__('twi-headphones-alt2', 'organia'); ?>"></i>
+                            <h5>CALL US FREE</h5>
+                            <p>(+84) 38 9868 644</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- Header Middle -->
-<?php endif; ?>
+<?php //endif; ?>
 <!-- Header Start -->
+
+
 <header class="header02 defaultHeader <?php echo esc_attr($header_is_sticky == 1 ? 'isSticky' : ''); ?>">
     <div class="container largeContainer">
         <div class="row">
             <div class="col-lg-12">
-                <div class="navBar01 <?php echo esc_attr($right); ?>">
-                    <?php if ($select_type == 2): ?>
-                        <?php if ($header_is_category == 1): ?>
-                            <div class="all-categories-dropdown dropdown02">
-                                <a class="select categoryToggle" href="javascript:void(0)">
-                                    <span></span>
-                                    <?php echo esc_html($category_label); ?>
-                                </a>
-                                <?php if (is_array($select_category) && !empty($select_category)): ?>
-                                    <div class="categorie-list">
-                                        <?php if (in_array('0', $select_category)) unset($select_category[0]); ?>
-                                        <ul>
-                                            <?php if (!empty($select_category)): ?>
-                                                <?php foreach ($select_category as $cat):
-                                                    $category = get_term_by('id', $cat, 'product_cat');
-                                                    $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
-                                                    $image = wp_get_attachment_url($thumbnail_id);
-                                                    $cat_url = get_category_link($category);
-                                                    ?>
-                                                    <li><a href="<?php echo esc_url($cat_url); ?>"><span class="thumb"><img src="<?php echo esc_url($image); ?>" alt="<?php echo esc_attr($cat); ?>"/></span><?php echo esc_html($category->name); ?></a><span>( <?php echo esc_html($category->count); ?> <?php echo esc_html__('Items', 'organia') ?> )</span></li>
-                                                <?php endforeach; ?>
-                                            <?php endif ?>
-                                        </ul>
-                                        <?php if ($category_more_label != ''): ?>
-                                            <a class="others" href="<?php echo esc_url($category_more_url); ?>">
-                                                <span><?php echo esc_html__('+', 'organia'); ?></span> <?php echo esc_html($category_more_label); ?></a>
-                                        <?php endif; ?>
-                                    </div>
+                <div class="navBar01">
+                    <div class="all-categories-dropdown dropdown02">
+                        <a class="select categoryToggle" href="javascript:void(0)">
+                            <span></span>
+                            <?php echo esc_html($category_label); ?>
+                        </a>
+                        <?php if (is_array($select_category) && !empty($select_category)): ?>
+                            <div class="categorie-list">
+                                <?php if (in_array('0', $select_category)) unset($select_category[0]); ?>
+                                <ul>
+                                    <?php if (!empty($select_category)): ?>
+                                        <?php foreach ($select_category as $cat):
+                                            $category = get_term_by('id', $cat, 'product_cat');
+                                            $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
+                                            $image = wp_get_attachment_url($thumbnail_id);
+                                            $cat_url = get_category_link($category);
+                                            ?>
+                                            <li><a href="<?php echo esc_url($cat_url); ?>"><span class="thumb"><img src="<?php echo esc_url($image); ?>" alt="<?php echo esc_attr($cat); ?>"/></span><?php echo esc_html($category->name); ?></a><span>( <?php echo esc_html($category->count); ?> <?php echo esc_html__('Items', 'organia') ?> )</span></li>
+                                        <?php endforeach; ?>
+                                    <?php endif ?>
+                                </ul>
+                                <?php if ($category_more_label != ''): ?>
+                                    <a class="others" href="<?php echo esc_url($category_more_url); ?>">
+                                        <span><?php echo esc_html__('+', 'organia'); ?></span> <?php echo esc_html($category_more_label); ?></a>
                                 <?php endif; ?>
                             </div>
                         <?php endif; ?>
-                    <?php else: ?>
-                        <div class="logo">
-                            <?php if (!empty($header_logos)): ?>
-                                <a href="<?php echo esc_url(home_url('/')); ?>">
-                                    <img src="<?php echo esc_url($header_logos); ?>" alt="<?php echo get_bloginfo(); ?>"/>
-                                </a>
-                            <?php else: ?>
-                                <a class="text" href="<?php echo esc_url(home_url('/')); ?>"><?php echo get_bloginfo('name'); ?></a>
-                            <?php endif; ?>
-                        </div>
-                    <?php endif; ?>
+                    </div>
                     <nav class="mainMenu">
                         <?php
                         if (has_nav_menu('primary-menu')) {
@@ -236,10 +208,10 @@ if ($header_is_cart != 1 && $header_is_wishlist != 1) {
                     </nav>
                     <div class="accessNav">
                         <a href="javascript:void(0);" class="menuToggler"><i class="twi-bars1"></i></a>
-                        <?php if ($header_is_wishlist == 1 && class_exists('YITH_WCWL')): ?>
+                        <?php if (class_exists('YITH_WCWL')): ?>
                             <a class="wishlistBtn" href="<?php echo esc_url(YITH_WCWL()->get_wishlist_url()); ?>"><i class="twi-heart1"></i><span><?php echo YITH_WCWL()->count_products(); ?></span></a>
                         <?php endif; ?>
-                        <?php if ($header_is_cart == 1 && class_exists('woocommerce')): global $woocommerce; ?>
+                        <?php if (class_exists('woocommerce')): global $woocommerce; ?>
                             <div class="shoping_cart">
                                 <a class="cartBtn organia_aj_cart" href="javascript:void(0);"><i class="twi-shopping-bag1"></i><span><?php echo sprintf(_n('%d', '%d', $woocommerce->cart->cart_contents_count, 'organia'), $woocommerce->cart->cart_contents_count); ?></span></a>
                                 <div class="show_cart_area">

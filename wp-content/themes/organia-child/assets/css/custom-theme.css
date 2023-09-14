@@ -1,0 +1,92 @@
+
+.elementor .logo img,
+.logo img,
+.headerMiddle .logo img{
+    height: 86px;
+}
+
+.organia_product_wrapper .productItem04{
+
+}
+.organia_product_wrapper .productItem04 .proThumb04{
+    position: relative;
+    padding-bottom: 125%;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+}
+.productItem04 .product_content04{
+    padding-top: 30px;
+}
+.organia_product_wrapper .productItem04 .proThumb04 img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.productItem01 .proThumb{
+    overflow: hidden;
+    padding-bottom: 125%;
+    min-height: auto;
+}
+.productItem01 .proThumb > img{
+    max-width: 100%;
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.productItem01 .hover img{
+    height: 100%;
+    object-fit: cover;
+}
+.productItem01 .product_content{
+    margin-top: 25px;
+}
+
+.organia_rev_slider rs-slides .rs-parallax-wrap .rs-layer{
+    font-family: 'Roboto', sans-serif !important;
+}
+.organia-serach_wrapper ul li .thumb img{
+    height: 100%;
+    object-fit: cover;
+}
+.shoping_cart .show_cart_area{
+    max-height: 400px;
+    overflow: hidden;
+    padding: 10px 20px 20px 10px;
+}
+.shoping_cart .show_cart_area ul.cart_list{
+    max-height: 270px;
+    overflow-y: scroll;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.shoping_cart .show_cart_area ul.cart_list::-webkit-scrollbar{
+    width: 10px;
+}
+.shoping_cart .show_cart_area ul.cart_list::-webkit-scrollbar-track{
+    background: #fff;
+    border-radius: 10px;
+}
+.shoping_cart .show_cart_area ul.cart_list::-webkit-scrollbar-thumb{
+    background: #777777;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+    cursor: pointer;
+}
+.shoping_cart .show_cart_area ul.cart_list::-webkit-scrollbar-thumb:hover{
+    background: #a4a4a4;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+.shoping_cart .show_cart_area .widget_shopping_cart_content p.total,
+.shoping_cart .show_cart_area .woocommerce-mini-cart__buttons{
+    padding-left: 10px !important;
+}
